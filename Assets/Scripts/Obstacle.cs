@@ -3,11 +3,11 @@ using UnityEngine;
 public class Obstacle : MonoBehaviour
 {   
     // Public variables to control the size and speed of the obstacles
-    public float minSize = 0.5f;
-    public float maxSize = 3.0f;
-    public float minSpeed = 200f;
-    public float maxSpeed = 350f;
-    public float maxSpinSpeed = 10f;
+    float minSize = 1.5f;
+    float maxSize = 3f;
+    float minSpeed = 200f;
+    float maxSpeed = 350f;
+    float maxSpinSpeed = 10f;
     Rigidbody2D rb;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created

@@ -4,9 +4,9 @@ public class Obstacle : MonoBehaviour
 {   
     // Public variables to control the size and speed of the obstacles
     public float minSize = 0.5f;
-    public float maxSize = 2.0f;
-    public float minSpeed = 150f;
-    public float maxSpeed = 300f;
+    public float maxSize = 3.0f;
+    public float minSpeed = 200f;
+    public float maxSpeed = 350f;
     public float maxSpinSpeed = 10f;
     Rigidbody2D rb;
     
